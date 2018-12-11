@@ -1,7 +1,7 @@
 ####################
 # BASE IMAGE
 ####################
-FROM ubuntu:16.04
+FROM ubuntu:12.04
 
 MAINTAINER MediaVerse <pk@mediaverse.de>
 
