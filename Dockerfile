@@ -4,4 +4,7 @@ MAINTAINER MediaVerse <pk@mediaverse.de>
 RUN apt-get update \
     && apt-get -y install curlftpfs
 
-CMD ["/bin/bash"]
+####################
+# ENTRYPOINT
+####################
+ENTRYPOINT ["/bin/bash"]
