@@ -5,6 +5,6 @@ RUN apt-get update \
     && apt-get -y install curlftpfs
 
 ####################
-# ENTRYPOINT
+# CMD
 ####################
-ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]
